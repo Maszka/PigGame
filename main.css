@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-image: url("background.jpg");
+    background-size: 100% auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+
+}
+
+.board {
+    height: 600px;
+    width: 900px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    -webkit-box-shadow: 2px 3px 41px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 41px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 41px 0px rgba(0, 0, 0, 0.75);
+
+    text-align: center;
+}
+
+.board-player0 {
+    height: 600px;
+    width: 450px;
+    float: left;
+}
+
+.board-player1 {
+    height: 600px;
+    width: 450px;
+    float: left;
+}
+
+.player {
+    margin-top: 150px;
+
+}
+
+.btn-new-game {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+
+}
+
+.btn-roll-dice {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    left: 0;
+    right: 0;
+
+}
+
+
+.btn-hold {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
+    left: 0;
+    right: 0;
+}
